@@ -1,0 +1,17 @@
+const jogadores = ['Jose', 'Maria', 'João', 'Marcos', 'Fernanda'];
+
+    function arrayRemove(arr, value) { 
+    
+        return arr.filter(function(ele){ 
+            return ele != value; 
+        });
+    }
+    var result = arrayRemove(jogadores, 'Maria');
+
+    console.log(result);
+
+/*let indice = 0;
+
+app.get('/remover', (req, res) => {
+    const 
+})*/

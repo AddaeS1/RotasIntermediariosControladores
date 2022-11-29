@@ -1,0 +1,9 @@
+const nomeJogador = jogadores[jogador];
+
+
+if (nome != jogadores.jogadores){
+    jogadores.push('nome');
+    return jogadores;
+}else{
+    return jogadores;
+}
